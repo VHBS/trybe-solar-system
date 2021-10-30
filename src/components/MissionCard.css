@@ -1,0 +1,16 @@
+.container-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  width: 200px;
+  height: 160px;
+  margin: 10px;
+  background-color: rgba(138, 138, 138, 0.7);
+  padding: 0 20px;
+  color: rgb(210, 217, 219);
+  box-shadow: 2px 2px 5px rgb(28, 2, 33);
+  border: 2px solid rgb(166, 99, 204);
+  text-shadow: 2px 2px 5px rgb(28, 2, 33);;
+}

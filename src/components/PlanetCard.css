@@ -1,0 +1,26 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+  margin: 5px;
+}
+
+.planet-name {
+  color: rgb(210, 217, 219);
+  background-color: rgb(94, 93, 92);
+  padding: 0 20px;
+  border-radius: 0 30px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(28, 2, 33);
+  opacity: 0.7;
+  text-shadow: 2px 2px 5px rgb(28, 2, 33);
+}
+
+.planet-img {
+  width: 150px;
+}

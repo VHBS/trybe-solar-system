@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-block: 80px;
+}
+
+.title {
+  background-color: rgb(28, 2, 33);
+  color: rgb(219, 219, 219);
+  padding: 10px 40px;
+  border-radius: 0 100px;
+  box-shadow: 2px 2px 5px rgb(158, 75, 175);
+  font-size: 72px;
+}
