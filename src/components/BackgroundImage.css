@@ -1,14 +1,20 @@
 .bg-img {
   animation: rotation 400s infinite linear;
-  z-index: -1;
-  position: absolute;
-  top: -500px;
   left: -100px;
   opacity: 1;
+  position: absolute;
+  top: -500px;
   transform: rotate(90deg);
+  z-index: -1;
 }
 
-@keyframes rotation{
-  from{transform: rotate(0deg)}
-  to{transform: rotate(-360deg);}
+@keyframes rotation {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
 }

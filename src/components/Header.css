@@ -1,14 +1,32 @@
 .header-container {
   display: flex;
   justify-content: center;
-  margin-block: 80px;
+  margin-block: 5em;
 }
 
+
 .title {
-  background-color: rgb(28, 2, 33);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgb(166, 99, 204);
+  border-radius: 2em;
+  box-shadow: 2px 2px 5px rgb(28, 2, 33);
   color: rgb(219, 219, 219);
-  padding: 10px 40px;
-  border-radius: 0 100px;
-  box-shadow: 2px 2px 5px rgb(158, 75, 175);
-  font-size: 72px;
+  font-size: 10vw;
+  padding: 0 0.3em;
+  text-align: center;
+}
+
+@media only screen and ( min-width : 1200px ) {
+
+  .title {
+    font-size: 120px;
+  }
+}
+
+@media only screen and ( max-width : 560px ) {
+
+  .title {
+    font-size: 48px;
+  }
 }

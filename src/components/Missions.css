@@ -1,10 +1,12 @@
 .container-missoes {
-  margin-inline: 60px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
   border: 2px solid rgb(166, 99, 204);
+  border-radius: 20px;
   box-shadow: 2px 2px 5px rgb(28, 2, 33);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-inline: 60px;
+  padding-block: 1em;
 }
