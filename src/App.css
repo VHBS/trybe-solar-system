@@ -6,11 +6,16 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: rgb(8, 2, 32);
   color: rgb(28, 2, 33);
   font-family: Poppins , sans-serif;
   min-width: 560px;
   overflow-x: hidden;
+  position: relative;
 }
 
